@@ -13,7 +13,7 @@ With the progress in my studies, I started to make projets that chalenge me, tha
 
 The ideia of that litle game came to me when I was playing with a 1000 pieces puzzle, with one make me thing like a explosion on my mind
 
-	" And if make a web puzzle? # 💥# 💥# 💥"	
+	" Can I make a web puzzle? # 💥# 💥# 💥"	
 
 >[!TIP]
 >The program have cool features, like:
