@@ -12,7 +12,7 @@ function createPieces() {
     
     // make a new piece
     const piece = document.createElement("img")
-    piece.src = `../img/puzzlePiecesImage/puzzleImg${index + 1}.png`
+    piece.src = `./img/puzzlePiecesImage/puzzleImg${index + 1}.png`
     piece.alt = "piece-image"
     piece.className = `piece` 
     piece.draggable = "true"

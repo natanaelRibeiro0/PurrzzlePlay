@@ -1,5 +1,8 @@
 ## Topics
   
+>[!TIP]
+You can play the game (clicking here)[https://natanaelribeiro0.github.io/PurrzzlePlay/]
+
 1. [ABOUT THE PROJECT](#about-the-project) 
 2. [DOCUMENTATION](#documentation) 
 3. [SEARCHS AND COPYRIGHT](#searchs-and-copyright)
