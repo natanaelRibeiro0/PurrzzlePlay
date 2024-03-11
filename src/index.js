@@ -1,5 +1,3 @@
-// when all these elements have turned true, a alert will be show in the browser page
-const puzzleState = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false] // --> Variavel que auxilia no reconhecimento de final do puzzle
 
 const puzzleArea = document.querySelector(".puzzle-area"); // --> square that fit in the pieces
 const piecesArea = document.querySelector("aside") // --> where the pieces start
@@ -50,9 +48,6 @@ function createPieces() {
       pieceBeingDraged.classList.add("piece-positioned") 
       
       pieceBeingDraged.draggable = false
-
-      // will check if the puzzle have been resolved
-      puzzleResolveVerify(pieceBeingDraged.dataset.position)
     }
     pieceBeingDraged.classList.remove("is-dragging")   
   })
@@ -89,16 +84,6 @@ referenceImage.addEventListener("dblclick", () => {
 function generateNumber(a, b) {
   const number = Math.floor(Math.random() * (b - a + 1)) + a
   return (`${number}px`)
-}
-
-// event that change the array "puzzleState" and, if all true, return a alert and finish the game
-// ***puzzleResolveVerify***
-function puzzleResolveVerify(positionData){
-  puzzleState[positionData] = true
-  if((puzzleState.includes(false))){
-    alert("Puzzle resoleve. Congratulations!! :D")
-    alert("Restart the page to play the game")
-  }
 }
 
 // will check the size of the screen and put the pieces in the right area (extremely important because of the responsivity)
