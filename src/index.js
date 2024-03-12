@@ -89,6 +89,13 @@ function generateNumber(a, b) {
 // will check the size of the screen and put the pieces in the right area (extremely important because of the responsivity)
 // ***placePieces***
 function placePieces(pageWidht, piece){
+  if(pageWidht >= 768 && pageWidht < 812){
+    piece.style.top = generateNumber(700, 790) 
+    piece.style.right = generateNumber(40, 690) 
+    // Adiciona as imagems no seu espaço
+    piecesArea.append(piece)
+  }
+  
   //812px (Tablet) position
   if(pageWidht >= 812 && pageWidht < 1024){
     piece.style.top = generateNumber(700, 790) 
